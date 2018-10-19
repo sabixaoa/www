@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.danilomarcus.agenda.Menu" >
+
+    <item
+        android:id="@+id/listarMenu"
+        android:orderInCategory="100"
+        android:title="title_activity_listar"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menuMenu"
+        android:orderInCategory="100"
+        android:title="title_activity_menu"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/cadastrarMenu"
+        android:orderInCategory="100"
+        android:title="title_activity_cad"
+        app:showAsAction="never"/>
+    
+</menu>
